@@ -1,0 +1,181 @@
+body{
+    background-color: #F9BCAF;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F25D3E;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px; 
+    color: #F25D3E;
+    margin: 0;
+}
+
+h3,a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F25D3E;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25D3E;   
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 2px solid #F25D3E;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 0px #F25D3E;
+    border-radius: 16px;
+    width: 416px;
+    height: 72px;
+}
+
+/* HELLO */
+
+.hello-main {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 33vh auto;
+}
+
+.end-main {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 10vh auto;
+}
+
+.end-main h1{
+    color: white;
+}
+
+.btn{
+    align-self: center;
+    margin-top: 5vh;
+}
+
+.btn h4{
+    margin: 0;
+    line-height: 72px;
+}
+
+/* END HELLO */
+
+
+/* MCQ */
+
+.mcq-main{
+    display: flex;
+    width: 50vw;
+    margin: 26vh auto;
+    text-align: left;
+}
+
+.tb-main{
+    width: 70vw;
+    margin: 20vh auto;
+    text-align: left;
+}
+
+.mcq-main-8{
+    display: flex;
+    width: 50vw;
+    margin: 8vh auto;
+    text-align: left;
+}
+
+.mcq-main-9{
+    display: flex;
+    width: 50vw;
+    margin: 18vh auto;
+    text-align: left;
+}
+
+.left{
+    width: 40vw;
+    margin: 0;
+}
+
+.mcq-main h2{
+    text-align: left;
+}
+
+.QnA{
+    margin: 9vh 0 0 2vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 2vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* END MCQ */
+
+
+/* CORRECT */
+
+.correct-main {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 18vh auto;
+}
+
+.correct-main-8 {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 4vh auto;
+}
+
+.correct-main-8 .pic{
+    margin: auto;
+}
+
+.correct-main .pic{
+    margin: auto;
+}
+
+/* END CORRECT */
